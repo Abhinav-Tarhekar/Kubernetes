@@ -1,0 +1,13 @@
+Step 1: Install Required Packages & Necessary Binaries
+
+Step 2: Install the packages on both worker nodes:
+
+  CMD: sudo apt-get -y install socat conntrack ipset
+
+  Packages :- conntrack:  Manages connection tracking in Linux Kernal load balancing & NAT
+              ipset    : Creates & manage IP set for fast IP lookup Network polices & firewall Rule
+              libipset3: 
+              socat    : Used in kubenetes for Port forwarding & exposing localhost services via TCP Proxies
+
+Step 3: 
+
